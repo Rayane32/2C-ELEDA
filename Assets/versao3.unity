@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7e693fec4985b488818c3adb3f7925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barraVida: {fileID: 0}
+  lifeScript: {fileID: 1898777034}
   speed: 10
 --- !u!58 &472930715
 CircleCollider2D:
@@ -1515,8 +1515,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -273.4125, y: 194.76}
-  m_SizeDelta: {x: 203.17, y: -389.53}
+  m_AnchoredPosition: {x: -273.4125, y: 148.5}
+  m_SizeDelta: {x: 203.2, y: -297.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898777034
 MonoBehaviour:
@@ -1530,6 +1530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03682175f42dea6478c5df6d69628f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxLife: 3
   life: 3
   spriteHearts:
   - {fileID: 1168950550}
